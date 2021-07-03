@@ -23,7 +23,7 @@ Según cómo decidas encarar la solución de este ejercicio, es probable que nec
 
 
 # Introducción al lenguaje Java 2
-//Práctica integradora
+
 ##Objetivo
 El objetivo de esta guía práctica es que podamos afianzar y profundizar los conceptos sobre colecciones y estructura de datos. Para esto vamos a plantear un único ejercicio; una vez que lo resolvamos ya no tendremos dudas sobre cómo se programa en Java.
 ¿Preparados?
@@ -74,7 +74,6 @@ Como comentamos más arriba, programar este algoritmo de ordenamiento podría re
 
 
 # Introducción al lenguaje Java 3
-// Práctica integradora
 
 
 ##Objetivo
@@ -107,7 +106,6 @@ segunda ocurrencia del carácter ‘|’ (pipe) dentro de la cadena s. Que, en e
 
 
 #Introducción al lenguaje Java 4
-// Práctica integradora
 
 
 ##Objetivo
@@ -153,7 +151,6 @@ Preparados, listos, ¡¡VAMOS!!
 
 
 #Introducción al lenguaje Java 6
-// Práctica integradora
 
 
 ##Objetivo
