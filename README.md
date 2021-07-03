@@ -104,8 +104,6 @@ Partiendo de la clase StringUtil (que usamos para resolver Radix Sort), agregar 
 ocurrencia del carácter c dentro de s, o -1 si s no contiene a c. Por ejemplo, si s = “John|Paul|George|Ringo”, c = ‘|’ y n=2, la función debe retornar la posicióon de la
 segunda ocurrencia del carácter ‘|’ (pipe) dentro de la cadena s. Que, en este caso, es: 9.
 
-<<<<<<< HEAD
-
 # Introducción al lenguaje Java 4
 
 
