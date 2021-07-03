@@ -1,22 +1,22 @@
 # Introduccion al lenguaje Java
 
-##Objetivo
+## Objetivo
 El objetivo de esta guía práctica es que podamos internalizar los contenidos que estudiamos hasta aquí. Para eso, nada mejor que poner manos a la obra. ¡A trabajar!
 ¡Buena suerte!
-###Ejercicio 1
+### Ejercicio 1
 Desarrollar un programa para mostrar los primeros n números pares, siendo n un valor que el usuario ingresará por consola.
 Recordá que un número es par cuando es divisible por 2.
-###Ejercicio 2
+### Ejercicio 2
 Desarrollar un programa para mostrar los primeros n múltiplos de m, siendo n y m valores que el usuario ingresará por consola.
 Recordá que un número a es múltiplo de b si a es divisible por b.
-###Ejercicio 3
+### Ejercicio 3
 Desarrollar un programa para informar si un número n es primo o no, siendo n un valor que el usuario ingresará por consola.
 Recordá que un número es primo cuando sólo es divisible por sí mismo y por 1.
 
 
-###Ejercicio 4
+### Ejercicio 4
 Desarrollar un programa para mostrar por consola los primeros n números primos, siendo n un valor que el usuario ingresará por consola.
-###Ejercicio 5
+### Ejercicio 5
 Desarrollar un programa para mostrar por consola los primeros n números naturales que tienen al menos m dígitos d, siendo n, m y d valores que el usuario ingresará por consola.
 Por ejemplo: si el usuario ingresa n=5, m=2 y d=3, el programa deberá mostrar por consola los primeros 5 números naturales que tienen, al menos, 2 dígitos 3. En este caso la salida será: 33, 133, 233, 303, 313.
 Según cómo decidas encarar la solución de este ejercicio, es probable que necesites utilizar recursos que aún no hemos estudiado. El desafío consiste en googlear cómo utilizar dichos recursos y ¡utilizarlos!
@@ -24,10 +24,10 @@ Según cómo decidas encarar la solución de este ejercicio, es probable que nec
 
 # Introducción al lenguaje Java 2
 
-##Objetivo
+## Objetivo
 El objetivo de esta guía práctica es que podamos afianzar y profundizar los conceptos sobre colecciones y estructura de datos. Para esto vamos a plantear un único ejercicio; una vez que lo resolvamos ya no tendremos dudas sobre cómo se programa en Java.
 ¿Preparados?
-###Ordenamiento de raíz
+### Ordenamiento de raíz
 Desarrollar el método radixSort, que ordena un array de enteros mediante dicho algoritmo de ordenamiento: “ordenamiento de raíz”.
 
 
@@ -65,7 +65,7 @@ L1 = {106}
 L6 = {673}
 Rearmamos y el array quedó ordenado.
 String[] s = {003,004,023,045,106,673}.
-###Desarrollo del algoritmo
+### Desarrollo del algoritmo
 Como comentamos más arriba, programar este algoritmo de ordenamiento podría resultar algo complejo para programadores con poca experiencia. Sin embargo, teniendo en cuenta cada uno de los pasos del algoritmo, podemos dividir este problema complejo en varios problemas más pequeños y fáciles de resolver.
 1. Desarrollar, en el orden en que aparecen, las funciones de la clase
    StringUtil.java.
@@ -76,24 +76,24 @@ Como comentamos más arriba, programar este algoritmo de ordenamiento podría re
 # Introducción al lenguaje Java 3
 
 
-##Objetivo
+## Objetivo
 El objetivo de esta guía práctica es que podamos afianzar y profundizar los conceptos sobre encapsulamiento, clases y objetos. Para esto vamos a plantear una serie de ejercicios simples que nos permitirán repasar los temas que estudiamos.
 ¿Are you ready?
-###Ejercicio 1
+### Ejercicio 1
 Crea una clase CuentaCorriente, con los métodos: ingreso, egreso, reintegro y transferencia. La clase contendrá un constructor por defecto, uno con parámetros y otro que recibirá una CuentaCorriente de la cual copiará todos sus datos. Además se deben desarrollar los métodos de acceso (para cada variable de instancia de la clase, desarrollar un método set y otro get. Por ejemplo: si la clase tiene una variable double saldo, sus métodos de acceso serán: double getSaldo() y void setSaldo(double s). Los prototipos de los métodos y constructores deberán ser discutidos y diseñados en equipo.
-###Ejercicio 2
+### Ejercicio 2
 Crea una clase Contador (sí, contador de programación) con métodos que permitan incrementar y decrementar su valor. La clase contendrá un constructor por defecto, un constructor con parámetros, un constructor copia y los setters y getters (métodos de acceso) que corresponda.
 
-###Ejercicio 3
+### Ejercicio 3
 
 
 ● Crea una clase Libro con los métodos: préstamo, devolución y toString, cuyo prototipo debe ser: public String toString(). Este método debe retornar una cadena que represente al objeto. Por ejemplo: si la clase tiene los atributos: título, isbn y autor, una cadena que represente a un libro podría ser: “Harry Potter, 9780545582889, Rowling, J. K.”. La clase contendrá un constructor por defecto, un constructor con parámetros y los métodos de acceso.
 ● Agregar la línea @Override justo arriba del encabezado del método toString. Luego, cambiar el nombre del método por: tostring (todo en minúscula). ¿Qué sucede?
-###Ejercicio 4
+### Ejercicio 4
 Crea una clase Fraccion con métodos necesarios para sumar, restar, multiplicar y dividir fracciones. Todos los métodos deben estar sobrecargados de modo que también puedan usarse para operar entre fracciones y números enteros (por ejemplo: ⅗+2 o ⅝*4).
-###Ejercicio 5
+### Ejercicio 5
 Crea una clase Fecha. La clase contendrá además de los constructores que consideres adecuados, métodos de acceso y el método toString, tal como lo explicamos en el ejercicio anterior, un método para comprobar si la fecha es correcta y otro para sumarle un día al valor actual de la fecha. Se debe investigar y utilizar la clase GregorianCalendar para implementar los métodos y constructores de Fecha.
-###Ejercicio 6
+### Ejercicio 6
 Partiendo de la clase StringUtil (que usamos para resolver Radix Sort), agregar los siguientes métodos estáticos:
 ● public static String rpad(String s,char c,int n); idem lpad, pero agregando caracteres a la derecha.
 
@@ -105,13 +105,13 @@ ocurrencia del carácter c dentro de s, o -1 si s no contiene a c. Por ejemplo, 
 segunda ocurrencia del carácter ‘|’ (pipe) dentro de la cadena s. Que, en este caso, es: 9.
 
 
-#Introducción al lenguaje Java 4
+# Introducción al lenguaje Java 4
 
 
-##Objetivo
+## Objetivo
 El objetivo de esta guía práctica es que podamos afianzar y profundizar los conceptos sobre clase abstracta, herencia y sobreescritura. Para esto vamos a plantear una serie de ejercicios simples que nos permitirán repasar los temas que estudiamos.
 ¡Vamos todavía!
-###Ejercicio 1
+### Ejercicio 1
 1. Crear una clase Password. El constructor debe recibir una regex (expresión regular) que valide el formato requerido para la contraseña. Investigar en Internet qué
    recursos provee Java para operar con expresiones regulares.
 2. Agregar el método public void setValue(String pwd) que permite asignar una contraseña acorde a la requerida por la regex del punto anterior. En caso de no concordar, el método debe arrojar una excepción.
@@ -120,7 +120,7 @@ El objetivo de esta guía práctica es que podamos afianzar y profundizar los co
 3. Escribir tres clases: PasswordFuerte, PasswordIntermedia, PasswordSimple, todas
    deben extender a Password y hardcodear una regex acorde al nivel de seguridad que el mismo nombre de la clase indica.
 
-###Ejercicio 2
+### Ejercicio 2
 1. Crear la clase FiguraGeometrica, abstracta y con el método: public abstract double area();
 2. Sobreescribir adecuadamente el método toString. Discutir en grupo: ¿tiene sentido sobreescribir el método toString en una clase abstracta?
 3. Crear las clases Circulo, Triangulo y Rectangulo, todas subclases de
@@ -130,12 +130,11 @@ El objetivo de esta guía práctica es que podamos afianzar y profundizar los co
 5. Crear una clase utilitaria con un método estático: public static double areaPromedio (FiguraGeometrica arr[]), que calcule y retorne el área promedio de las figuras contenidas en el array. Crear un programa, instanciar un FiguraGeometrica[], cargarle datos e invocar a areaPromedio para obtener el área promedio. Mostrar el resultado.
 
 # Introducción al lenguaje Java 5
-// Práctica integradora
 
-##Objetivo
+## Objetivo
 El objetivo de esta guía práctica es que podamos afianzar y profundizar los conceptos sobre interfaces Java, implementación y abstracción vía factorías de objetos.
 Preparados, listos, ¡¡VAMOS!!
-###Ejercicio 1
+### Ejercicio 1
 1. Crear la interface Precedable<T> con un método public int precedeA(T t).
 2. Crear la clase Persona, con los atributos String nombre, e int dni, sus métodos de acceso y los constructores que consideres adecuados.
 3. Hacer que Persona implemente Precedable<Persona>, luego sobreescribir el método int precedeA(Persona t).
@@ -150,13 +149,13 @@ Preparados, listos, ¡¡VAMOS!!
    Discusión: si quisiéramos cambiar el criterio de precedencia entre dos personas o dos celulares, ¿qué deberíamos hacer? ¿Cuán extensible y/mantenible resulta la solución de ordenamiento que desarrollamos en el ejercicio anterior? ¿Cómo se podría mejorar?
 
 
-#Introducción al lenguaje Java 6
+# Introducción al lenguaje Java 6
 
 
-##Objetivo
+## Objetivo
 El objetivo de esta guía práctica es que podamos afianzar y profundizar los conceptos sobre interfaces Java, implementación y abstracción vía factorías de objetos.
 Preparados, listos, ¡¡VAMOS!!
-###Ejercicio 1
+### Ejercicio 1
 1. Crear la interface Precedable<T> con un método public int precedeA(T t).
 2. Crear la clase Persona, con los atributos String nombre, e int dni, sus métodos de acceso y los constructores que consideres adecuados.
 3. Hacer que Persona implemente Precedable<Persona>, luego sobreescribir el método int precedeA(Persona t).
